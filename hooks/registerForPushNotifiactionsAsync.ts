@@ -32,4 +32,5 @@ export async function registerForPushNotificationsAsync(): Promise<string | unde
   console.log("Expo Push Token:", expoPushToken);
 
   return expoPushToken;
+  
 }

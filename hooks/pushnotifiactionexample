@@ -1,7 +1,7 @@
 curl -X POST https://exp.host/--/api/v2/push/send \
 -H "Content-Type: application/json" \
 -d '{
-  "to": "ExponentPushToken[RXsmxTL_9EcDPzrQ4HnjZr]",
+  "to": "ExponentPushToken[eHkR_ODLDsAC25y3XnHtp_]",
   "title": "Stay Strong 💪",
   "body": "Your streak is safe today!",
   "sound": "default",
@@ -14,7 +14,7 @@ $headers = @{
 }
 
 $body = @{
-  to = "ExponentPushToken[RXsmxTL_9EcDPzrQ4HnjZr]"
+  to = "ExponentPushToken[eHkR_ODLDsAC25y3XnHtp_]"
   title = "Stay Strong 💪"
   body = "Your streak is safe today!"
   sound = "default"
