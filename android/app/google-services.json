@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434477646972",
+    "project_id": "be-sober-ef05e",
+    "storage_bucket": "be-sober-ef05e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434477646972:android:0a0108e41d2d0c9acaf5f9",
+        "android_client_info": {
+          "package_name": "com.aditya.BeSober"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-8XaCn4RnsNqPSiBx0gtGdmdrhU50sIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

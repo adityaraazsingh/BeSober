@@ -1,0 +1,24 @@
+curl -X POST https://exp.host/--/api/v2/push/send \
+-H "Content-Type: application/json" \
+-d '{
+  "to": "ExponentPushToken[RXsmxTL_9EcDPzrQ4HnjZr]",
+  "title": "Stay Strong 💪",
+  "body": "Your streak is safe today!",
+  "sound": "default",
+  "priority": "high"
+}'
+
+
+$headers = @{
+  "Content-Type" = "application/json"
+}
+
+$body = @{
+  to = "ExponentPushToken[RXsmxTL_9EcDPzrQ4HnjZr]"
+  title = "Stay Strong 💪"
+  body = "Your streak is safe today!"
+  sound = "default"
+  priority = "high"
+} | ConvertTo-Json -Depth 3
+
+Invoke-RestMethod -Uri "https://exp.host/--/api/v2/push/send" -Method Post -Headers $headers -Body $body
